@@ -1,0 +1,44 @@
+@import url("root.css");
+
+body {
+  margin: 0;
+}
+
+* {
+    /* border: 1px solid rgba(128, 0, 128, 0.427) */
+}
+
+nav {
+    width: 100%;
+    margin-top: 30px;
+}
+
+nav .logo {
+    font-weight: 800;
+    font-size: var(--navbar-font-size)
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .list-items {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+
+.list-items li {
+    padding: 8px;
+}
+
+.list-items a {
+    font-size: var(--navbar-font-size);
+    color: var(--text-color);
+    text-decoration: none;
+}
