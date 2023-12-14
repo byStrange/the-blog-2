@@ -1,4 +1,5 @@
 @import url("./root.css");
+@import url("./cards.css");
 
 nav {
   width: 100%;
@@ -10,6 +11,14 @@ nav {
 
 .flex {
   display: flex;
+}
+
+.col-x-half {
+  width: 50%;
+}
+
+.col-y-half {
+  height: 50%;
 }
 
 .container {
