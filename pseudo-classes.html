@@ -1,0 +1,127 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo classes</title>
+  </head>
+  <body>
+    <style>
+      input {
+      }
+
+      /* pseudo classes - state
+            elementni turli xil xolatlariga stil beradi
+        */
+
+      /* focus, faqatgina focus qilsa boladigan elementlar uchun fokus bolga xolati
+            input, textarea, button, select, a
+        */
+
+      /* hover, element ustiga kursor kelganidagi xolat,
+            htmldagi barcha elementlar
+        */
+
+        input:focus  {
+            font-size: 20px;
+        }
+
+        input:hover {
+            border-color: red;
+        }
+
+        p:hover {
+            font-size: 25px;
+        } 
+
+      /* 
+            active, element ustiga kursor bilan bosib turilgan xolat
+            htmldagi barcha elementlar
+        */
+
+      button {
+        border: none;
+        padding: 4px 8px;
+        border-radius: 4px;
+        background-color: transparent;
+        /* border: 1px solid rgb(36, 152, 241); */
+        outline-offset: 2px;
+        outline: 1px solid rgb(36, 152, 241);
+      }
+
+      button:hover {
+        background-color: rgb(36, 152, 241);
+        color: white;
+        cursor: pointer;
+      }
+
+      button:active {
+        padding: 6px 10px;
+      }
+
+      button:focus {
+        border: 2px solid rgb(36, 152, 241);
+      }
+    </style>
+    <p>Salom</p>
+    <input type="text" />
+    <button>Click me</button>
+
+
+  </body>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      button {
+        border: none;
+        background-color: #007acc;
+        padding: 6px 16px;
+        border-radius: 2px;
+        color: white;
+        outline-offset: 1px;
+      }
+
+      button:hover {
+        cursor: pointer;
+        outline: 1px solid #007acc;
+        background-color: #005288;
+      }
+
+      button:focus {
+        outline: 1px solid #007acc;
+      }
+
+      a {
+        border-radius: 2px;
+      }
+
+      a:visited {
+        color: cyan;
+      }
+
+    a:active {
+        color: black;
+    }
+
+
+      /* a:hover {
+        outline: 1px solid blue;
+        color: red;
+      } */
+    </style>
+
+    <button>Darsga o'tish</button>
+    <button>Salom</button>
+
+    <a href="https://google.com">Google</a>
+    <a href="https://yandex.ru">Yandex</a>
+  </body>
+</html>
