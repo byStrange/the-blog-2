@@ -81,3 +81,21 @@ nav {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+
+.sun-icon {
+  background: #090d1f;
+  display: flex;
+  gap: 16px;
+  border-radius: 29px;
+  padding: 8px 16px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.cercle {
+  background-color: #fff;
+  border-radius: 99999px;
+}
